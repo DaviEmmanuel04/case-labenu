@@ -11,6 +11,9 @@ Este é um projeto de frontend que faz requisições da api do [The Movie DB](ht
 * [React](https://pt-br.reactjs.org/)
 * [Vite](https://vitejs.dev/)
 
-## ✒️ Trabalhos futuros 👨🏽‍💻
+## 👨🏽‍💻 Trabalhos futuros
 
 O código pode ser refatorado, muitas funções são semelhantes e podem ser transformadas em hooks ou em utils. A aplicação também não está responsiva
+
+
+Para mais detalhes sobre os commits [clique aqui](https://github.com/future4code/franklin-Davi-Rodrigues/pull/39)
