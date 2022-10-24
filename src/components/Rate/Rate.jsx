@@ -4,7 +4,7 @@ import { CircularProgress, PorgressValue } from './styles'
 function Rate({value}) {
 
     const defineColor = (value) => {
-        if (value < 70 && value > 50) {
+        if (value < 70 && value >= 50) {
             return '#ffe100'
         } 
         else if (value < 50) {

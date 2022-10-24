@@ -24,7 +24,7 @@ const Home = () => {
   const getMovies = async (url) => {
     const res = await fetch(url)
     const data = await res.json();
-
+   
     setMovies(data.results)
   }
   useEffect(() => {
@@ -50,7 +50,7 @@ const Home = () => {
     </MoviesContainer>
 
     <Stack spacing={2}>
-      <Pagination count={10} page={page} onChange={handleChange} />
+      <Pagination count={500} page={page} onChange={handleChange} />
     </Stack>
     
     </PageContainer>
