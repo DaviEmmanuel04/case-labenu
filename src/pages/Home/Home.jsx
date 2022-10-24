@@ -37,7 +37,7 @@ const Home = () => {
         filters += storage[filter]
       }
     }
-    const url = `https://api.themoviedb.org/3/movie/?${apiKey}&${language}&page=${page}${filters}`
+    const url = `https://api.themoviedb.org/3/discover/movie/?${apiKey}&${language}&page=${page}${filters}`
     getMovies(url)
   }, [page, activeFilters])
 
